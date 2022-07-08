@@ -1360,7 +1360,7 @@ public with sharing class MetadataServiceExamples
                    System.debug( System.LoggingLevel.ERROR, err.statusCode + ': ' + err.message );
                 }
             }
-            System.debug( 'success' );
+            System.debug( 'success' ); System.debug( 'success' );
         }
 
     }
